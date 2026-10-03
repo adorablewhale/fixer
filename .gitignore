@@ -1,0 +1,12 @@
+package/
+*.exe
+*.pdb
+*.zip
+*.dpapi
+reporting.json
+log.txt
+.env*
+*-account.toml
+*-profile.conf
+MatchaFixer.incomplete.txt
+HANDOFF.md

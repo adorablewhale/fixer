@@ -1,0 +1,19 @@
+name: verify windows build
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: windows-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          persist-credentials: false
+      - name: build and verify native fixtures
+        shell: powershell
+        run: powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Out .\package -Test
