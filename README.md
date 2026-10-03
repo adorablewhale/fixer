@@ -2,7 +2,7 @@
 
 <img src="assets/matcha-fixer.png" width="72" alt="matcha fixer whale with a bandage">
 
-# matcha fixer
+# fixer
 
 **a little help getting matcha running.**
 
@@ -23,7 +23,7 @@ starts your matcha loader, follows its downloads, and shows when kernel or userm
 
 ## getting started
 
-download the windows zip from [releases](https://github.com/adorablewhale/matcha-fixer/releases/latest), extract it, then open the fixer.
+download the windows zip from [releases](https://github.com/adorablewhale/fixer/releases/latest), extract it, then open the fixer.
 
 open `matcha-fixer.exe`, accept the windows administrator prompt, and choose the folder containing your matcha `loader.exe`. click **start matcha** and sign in through matcha's own window. choose kernel or usermode when it is ready.
 
@@ -73,6 +73,12 @@ powershell -NoProfile -ExecutionPolicy Bypass -File .\build.ps1 -Test
 
 more detail: [how it works and verification](TECHNICAL.md) · [reporting server](server/README.md)
 
+### something broke?
+
+message me on [discord](https://discord.com/users/599705734002769920), it works way better than issues here. tell me what you were doing and what happened.
+
+<sub>[mit license](LICENSE)</sub>
+
 ---
 
-made by adorablewhale · [mit license](LICENSE)
+<div align="center"><sub>🐳 <b>adorablewhale</b> · <a href="https://adorablewhale.world/me">website</a> · <a href="https://discord.com/users/599705734002769920">discord</a> · <a href="https://github.com/adorablewhale">other projects</a></sub></div>
